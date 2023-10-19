@@ -439,6 +439,8 @@ background-color: #404bbf;
   align-items: center;
   justify-content: center;
   color: var(--section-fife);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-section-fife:hover{
   border-color: #404bbf;
@@ -496,6 +498,7 @@ background-color: #404bbf;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-footer-ul:hover{
   background-color: #31d0aa;
