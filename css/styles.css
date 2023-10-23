@@ -598,3 +598,6 @@ background-color: #404bbf;
 .link-p:focus .paragraph-ul-nine{
   transform: translateY(0%);
 }
+.link-active::after{
+  width: 100%;
+}
